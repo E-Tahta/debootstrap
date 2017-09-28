@@ -2,6 +2,8 @@
 
 ifeq (0,$(shell dpkg-vendor --derives-from Ubuntu; echo $$?))
   KEYRING := ubuntu-keyring
+else ifeq (0,$(shell dpkg-vendor --derives-from Pardus; echo $$?))
+  KEYRING := pardus-archive-keyring
 else
   KEYRING := debian-archive-keyring
 endif
