@@ -1,3 +1,9 @@
+debootstrap (1.0.68pardus1) stable; urgency=medium
+
+  * Add etap to the scripts
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 16 May 2018 10:13:58 +0300
+
 debootstrap (1.0.67+deb8u1) jessie; urgency=medium
 
   * Add support for buster and bullseye.
