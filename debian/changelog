@@ -1,3 +1,9 @@
+debootstrap (1.0.68pardus2) stable; urgency=medium
+
+  * Pardus CI integration
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 16 May 2018 10:14:56 +0300
+
 debootstrap (1.0.68pardus1) stable; urgency=medium
 
   * Add etap to the scripts
