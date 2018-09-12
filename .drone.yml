@@ -2,7 +2,7 @@ build:
   package:
     image: etap
     volumes:
-      - /packages:/packages
+      - /packages/etap:/packages
     commands:
       - id
       - apt-get update
@@ -18,7 +18,7 @@ build:
   test:
     image: etap
     volumes:
-      - /packages:/packages
+      - /packages/etap:/packages
     commands:
       - id
       - apt-get update
