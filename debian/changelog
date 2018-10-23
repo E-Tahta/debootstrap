@@ -1,3 +1,10 @@
+debootstrap (1.0.68pardus5) stable; urgency=medium
+
+  * Change mount point
+  * Do not remove stable from scripts for d-i purposes
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 23 Oct 2018 11:09:41 +0300
+
 debootstrap (1.0.68pardus4) stable; urgency=medium
 
   * Update scripts
